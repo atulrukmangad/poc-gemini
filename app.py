@@ -16,12 +16,5 @@ def gettextfromuser():
     res = response.text
     return(jsonify(res))
 
-@app.route('/resetchat', methods=['post'])
-def resetchat():
-    chat=model.start_chat(history=[])
-    return render_template('index.html')
-
-
- 
 if __name__ == '__main__':
     app.run(debug=True)
