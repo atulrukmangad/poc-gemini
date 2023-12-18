@@ -1,4 +1,4 @@
-A simple chatbot built using Flask, HTML, and Bootstrap. The chatbot has the ability to remember past conversations and respond accordingly.
+A simple chatbot built using Gemini, Flask, HTML, and Bootstrap. The chatbot has the ability to remember past conversations and respond accordingly.
 
 
 
